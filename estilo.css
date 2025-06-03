@@ -1,0 +1,23 @@
+.head-index{
+    width: 100%;
+    height: 150px;
+    background-color: red
+}
+
+section-index {
+  padding: 20px;
+  margin: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .section-index {
+    text-align: center;
+  }
+}
