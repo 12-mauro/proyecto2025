@@ -9,10 +9,11 @@
     color: white;
     text-decoration: none;
     font-weight: bold;
+    transition: transform 0.3s ease; // ✅ animación suave
 
     &:hover {
       color: yellow;
-      transition: 0.3s ease;
+      transform: scale(1.1); // ✅ se agranda al pasar el mouse
     }
   }
 }

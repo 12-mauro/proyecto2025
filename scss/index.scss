@@ -1,10 +1,20 @@
-.section-index {
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}.section-index {
   padding: $padding-global;
   margin: $padding-global;
 
   h1 {
     color: yellow;
-    font-size: 2rem;
+    font-size: 2rem; 
+    animation:aparecer 1s ease-out
   }
 
   h3 {
