@@ -1,0 +1,18 @@
+.nav {
+  background-color: $color-secundario;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+      color: yellow;
+      transition: 0.3s ease;
+    }
+  }
+}
