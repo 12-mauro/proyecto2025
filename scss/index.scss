@@ -1,20 +1,22 @@
-@keyframes aparecer {
+@keyframes zoom-girar {
   0% {
+    transform: scale(0.5) rotate(-15deg);
     opacity: 0;
-    transform: translateY(-20px);
   }
   100% {
+    transform: scale(1) rotate(0deg);
     opacity: 1;
-    transform: translateY(0);
   }
-}.section-index {
+}
+
+.section-index {
   padding: $padding-global;
   margin: $padding-global;
 
   h1 {
     color: yellow;
-    font-size: 2rem; 
-    animation:aparecer 1s ease-out
+    font-size: 2rem;
+    animation: zoom-girar 1s ease-out;
   }
 
   h3 {
